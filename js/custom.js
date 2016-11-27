@@ -68,7 +68,9 @@ var handler = function(){
 
  //STAYLER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-	$('#myForm select').styler();
+	$('#myForm select, input').styler();
+
+
 
 //DATEPICKER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
