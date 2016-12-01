@@ -68,7 +68,7 @@ var handler = function(){
 
  //STAYLER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-	$('#myForm select, input').styler();
+	$('#myForm select').styler();
 
 
 
@@ -76,7 +76,7 @@ var handler = function(){
 
 	$( ".datepicker").datepicker({
 		dayNames: ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"],
-		dayNamesMin: [ "Пн", "Вт", "Ср", "Чт", "Пн", "Сб", "Вс" ],
+		dayNamesMin: [ "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс" ],
 		monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
 		changeYear: false,
 		dateFormat: "yy-mm-dd"

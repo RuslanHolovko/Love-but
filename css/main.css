@@ -394,14 +394,66 @@ main.content{
 #Departure,
 #race{
 	width: 52%;
+	padding: 0px 7px;
+	background: #fff url(../img/date.png) no-repeat 95% 50%;
 }
 
 #email,
 #tel{
-	width: 66%;
+	width: 81%;
+	padding: 1px 10px;
+}
+
+#email{
+	margin-left: 62px;
+}
+
+#tel{
+	margin-left: 43px;
+}
+
+.right-section__email,
+.right-section__tel{
+	margin-top: 21px;
+}
+
+.right-section__services{
+	margin-top: 42px;
+	font-size: 16px;
 }
 
 
+.right-section input[type="checkbox"]:checked+label{
+	display: inline-block;
+	background: #aa4141;
+	color: #fff;
+	padding-left: 23px;
+}
+
+.right-section input[type="checkbox"]:checked+label:before{
+	display: inline-block;
+	content: "\e902";
+	font-size: 12px;
+	color: #d4d4d4;
+	left: 7px;
+}
+
+.right-section__circle{
+	padding: 5px 14px;
+	position: relative;
+	display: inline-block;
+	margin-top: 8px;
+	margin-right: 0px;
+}
+
+.right-section__circle:before{
+	content: "\e903";
+	font-family: 'icomoon';
+	position: absolute;
+	top: 13px;
+	left: -2px;
+	font-size: 9px;
+}
 
 
 
