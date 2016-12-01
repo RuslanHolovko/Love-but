@@ -312,14 +312,100 @@ main.content{
 }
 
 .right-section__typeroom{
-	width: 35%;
-	min-width: 124px;
+	width: 37%;
+	min-width: 125px;
 	margin-left: 20px;
 }
 
-.right-section__1-people{
-	position: relative;
+
+.right-section__1-people,
+.right-section__1-people .jq-selectbox__select-text{
+	background: url(../img/people-1.png) no-repeat 13px 3px;
 }
+
+.right-section__2-people,
+.right-section__2-people .jq-selectbox__select-text{
+	background: url(../img/people-2.png) no-repeat 9px 3px;
+}
+
+.right-section__3-people,
+.right-section__3-people .jq-selectbox__select-text{
+	background: url(../img/people-3.png) no-repeat 5px 3px;
+}
+
+.right-section__selected .changed .jq-selectbox__select-text{
+	 padding: 4px 0 4px 61px;
+}
+
+.right-section__date-inneer{
+	float: left;
+}
+
+.right-section__date{
+	margin-top: 16px;
+}
+
+
+.right-section__children,
+.right-section__parents,
+.right-section__date-inneer,
+.right-section__departure{
+	display: inline-block;
+}
+
+.right-section__selectPeople{
+	margin-top: 16px;
+}
+
+.right-section__parents span{
+	margin-right: 31px;
+}
+
+.right-section__children span{
+	margin-right: 14px;
+}
+
+.right-section__children{
+	margin-left: 4%;
+}
+
+.right-section__date-inneer,
+.right-section__departure{
+	width: 42%;
+}
+
+.right-section__date-inneer{
+	float: left;
+}
+
+
+.right-section__date-inneer label{
+	margin-right:  61px;
+}
+
+.right-section__departure{
+	margin-left: 32px;
+}
+
+.right-section__departure label{
+	margin-right:   21px;
+}
+
+#Departure,
+#race{
+	width: 52%;
+}
+
+#email,
+#tel{
+	width: 66%;
+}
+
+
+
+
+
+
 
 
 

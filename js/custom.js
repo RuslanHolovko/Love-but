@@ -55,7 +55,7 @@ var handler = function(){
 //SLiCK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
  $('.sl').slick({
- 	autoplay: false,
+ 	autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: false,

@@ -35,7 +35,7 @@
 			<div class="wrapper clearfix">
 				<nav class="nav">
 					<div class="nav__logo">
-						<a href="/">
+						<a href="\">
 							<img class="nav__logo-image" src="img/Logo.svg" alt="Люблю-но">
 							<span class="nav__love-but">ЛЮБЛЮ-НО</span>
 						</a>	
@@ -95,47 +95,53 @@
 					</div>
 				</section>
 
-				<section class="right-section clearfix">
+				<section class="right-section clearfix ">
 					<form action="#" id="myForm" method="get">
-						<div>
-							<span>Тип номера</span>
-							<select name="typeroom" class="right-section__typeroom">
-								<option value="1" ><span class="right-section__1-people ">(эконом)</span></option>
-								<option value="2" class="right-section__2-people">(эконом)</option>
-								<option value="3" class="right-section__3-people">(эконом)</option>
-							</select>
+						<div class="right-section__selected ">
+							<div class="changed">
+								<span>Тип номера</span>
+								<select name="typeroom" class="right-section__typeroom " >
+									<option value="1" class="right-section__1-people">(эконом)</option>
+									<option value="2" class="right-section__2-people">(эконом)</option>
+									<option value="3" class="right-section__3-people">(эконом)</option>
+								</select>
+							</div>
 						</div>
-						<div>
-							<span>Взрослые</span>
-							<select name="adults" id="">
-								<option value="4">1</option>
-								<option value="5">2</option>
-								<option value="6">3</option>
-							</select>
+						<div class="right-section__selectPeople">
+							<div class="right-section__parents">
+								<span>Взрослые</span>
+								<select name="adults" required>
+									<option value="4">1</option>
+									<option value="5">2</option>
+									<option value="6">3</option>
+								</select>
+							</div>
+							<div class="right-section__children">
+								<span>Дети</span>
+								<select name="childrens" required>
+									<option value="4">1</option>
+									<option value="5">2</option>
+									<option value="6">3</option>
+								</select>
+							</div>
 						</div>
-						<div>
-							<span>Дети</span>
-							<select name="childrens" id="">
-								<option value="4">1</option>
-								<option value="5">2</option>
-								<option value="6">3</option>
-							</select>
-						</div>
-						<div>
-							<label for="race">Заезд</label>
-							<input type="text" id="race" class="datepicker styler">
-						</div>
-						<div>
-							<label for="Departure">Отъезд</label>
-							<input type="text" id="Departure" class="datepicker styler">
+						<div class="right-section__date clearfix">
+							<div class="right-section__date-inneer">
+								<label for="race">Заезд</label>
+								<input type="text" id="race" class="datepicker styler" required>
+							</div>
+							<div class="right-section__departure">
+								<label for="Departure">Отъезд</label>
+								<input type="text" id="Departure" class="datepicker styler" required>
+							</div>
 						</div>
 						<div>
 							<label for="email">E-mail</label>
-							<input type="email" name="email" id="email" class="styler">
+							<input type="email" name="email" id="email" class="styler" required>
 						</div>
 						<div>
 							<label for="email">Телефон</label>
-							<input type="tel" name="tel" id="tel" class="styler">
+							<input type="tel" name="tel" id="tel" class="styler" required>
 						</div>
 						<h2 class="right-section__services">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h2>
 						<input type="checkbox" id="business">
