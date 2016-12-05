@@ -1,7 +1,27 @@
 /*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1280px){
+#Departure, #race {
+	width: 100%;
+
+}
+}
+
+@media only screen and (max-width : 1237px) {
+.info__languages {
+	margin-left: 36px;
+}
+
+.nav__navigation-list li {
+	margin-left: 13px;
+}
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+#email, #tel {
+	width: 73%;
+}
+
 
 }
 
