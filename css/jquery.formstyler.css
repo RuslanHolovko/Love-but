@@ -330,7 +330,7 @@
 }
 .jq-selectbox li {
 	min-height: 18px;
-	padding: 10px  27px;
+	padding: 10px  27px 10px 78px;
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;

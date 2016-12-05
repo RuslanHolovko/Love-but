@@ -172,7 +172,7 @@ header a:hover{
 
 .nav__navigation-list li{
 	display: inline-block;
-	margin-left: 24px;
+	margin-left: 20px;
 }
 
 .nav__navigation-list li a{
@@ -186,8 +186,8 @@ header a:hover{
 
 .info__languages{
 	float: left;
-	margin-top: 16px;
-	margin-left: 83px;
+	margin-top: 17px;
+	margin-left: 73px;
 }
 
 .info__links{
@@ -218,7 +218,6 @@ header a:hover{
 main.content{
 	padding-bottom: 100px;
 	padding-top: 88px;
-	border: 1px solid #000;
 	z-index: 1000;
 }
 
@@ -354,7 +353,7 @@ main.content{
 }
 
 .right-section__selectPeople{
-	margin-top: 16px;
+	margin-top: 9px;
 }
 
 .right-section__parents span{
@@ -380,7 +379,7 @@ main.content{
 
 
 .right-section__date-inneer label{
-	margin-right:  61px;
+	margin-right:  59px;
 }
 
 .right-section__departure{
@@ -394,13 +393,13 @@ main.content{
 #Departure,
 #race{
 	width: 52%;
-	padding: 0px 7px;
+	padding: 0px 3px;
 	background: #fff url(../img/date.png) no-repeat 95% 50%;
 }
 
 #email,
 #tel{
-	width: 81%;
+	width: 78%;
 	padding: 1px 10px;
 }
 
@@ -414,7 +413,7 @@ main.content{
 
 .right-section__email,
 .right-section__tel{
-	margin-top: 21px;
+	margin-top: 20px;
 }
 
 .right-section__services{
@@ -422,6 +421,11 @@ main.content{
 	font-size: 16px;
 }
 
+.right-section__noPadding{
+	padding: 5px 0px!important;
+	text-align: center;
+
+}
 
 .right-section input[type="checkbox"]:checked+label{
 	display: inline-block;
@@ -455,26 +459,77 @@ main.content{
 	font-size: 9px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*CONTENT-EOF========================================================================*/
 
+
+/*FOOTER-BEGIN===============================================*/
 footer{
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	height: 100px;
-	border: 1px solid #000;
+	min-height: 100px;
 }
+
+.contact{
+	float: left;
+	margin-top: -13px;
+}
+
+.about-website{
+	float: right;
+}
+
+.contact__telephone{
+	position: relative;
+	font-family: "RobotoMedium";
+	font-size: 18px;
+	padding-left: 37px;
+}
+
+.contact__meidum-text{
+	font-family: "RobotoLight";
+	margin-right: 7px;
+}
+
+.social{
+	float: right;
+	margin-left: 28px;
+	margin-top: 2px;
+}
+
+.contact__icons{
+	margin-left: 7px;
+	padding: 8px;
+	border: 1px solid #333;
+}
+
+.contact__icons-fb{
+	font-weight: bold;
+}
+
+.contact__telephone:before{
+	content: "\e90a";
+	position: absolute;
+	top: -3px;
+	left: -2px;
+	font-family: 'icomoon';
+	font-size: 30px;
+	color: #333;
+}
+
+.about-website{
+	margin-top: -4px;
+}
+
+.about-website a{
+	font-family: "RobotoLight";
+	margin-left: 11px;
+	letter-spacing: 0.6px;
+}
+
+/*FOOTER-EOF===============================================*/
+
 
 
 input[type="checkbox"]{
