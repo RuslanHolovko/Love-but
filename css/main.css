@@ -459,11 +459,36 @@ main.content{
 	font-size: 9px;
 }
 
+.right-section__price{
+	margin-top: 39px;
+	font-family: "RobotoRegular";
+	font-size: 16px;
+}
+
+.right-section__inner-price{
+	font-family: "RobotoMedium";
+	font-size: 24px;
+}
+
+.right-section__button{
+	padding: 15px 44px;
+	background: #642121;
+	font-family: "RobotoBold";
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	outline: none;
+	margin-top: 12px;
+}
+
+
+
 /*CONTENT-EOF========================================================================*/
 
 
 /*FOOTER-BEGIN===============================================*/
 footer{
+	padding-top: 5px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
