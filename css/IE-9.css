@@ -49,7 +49,6 @@
   display: none;
 }
 
-
 .fancybox-close{
   height: 65px;
   width: 65px;
@@ -59,5 +58,40 @@
 
 .right-section__circle:before {
   display: none;
+}
+
+.slide-1{
+  background: url(../img/hand-ie-9.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border: none;
+  outline: none;
+  height: 1000px;
+}
+
+.slide-2{
+  background: url(../img/map-ie-9.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border: none;
+  outline: none;
+  height: 1000px;
+}
+
+.slide-3{
+  background: url(../img/beach-2-ie-9.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border: none;
+  outline: none;
+  height: 1000px;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
 }
 

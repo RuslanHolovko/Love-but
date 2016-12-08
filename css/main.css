@@ -107,7 +107,6 @@ color: #17202f;
 	-moz-filter: opacity(25%);
 	-webkit-filter: opacity(25%);
 	filter: opacity(25%);
-	background-color: rgba(255, 255, 255, .7);
 	background: url(../img/hand.jpg) no-repeat;
 	background-size: cover;
 	background-position: top center;
