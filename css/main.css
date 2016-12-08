@@ -72,10 +72,12 @@ color: #17202f;
 }
 
 
-.main-wrapper{
+.main-wrapper{ 
 	position: relative;
 	min-width: 320px;
 }
+
+
 
 .wrapper{
 	min-width: 320px;
@@ -93,6 +95,7 @@ color: #17202f;
 }
 
 .sl{
+	background: rgba(255, 255, 255, .7);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -101,7 +104,10 @@ color: #17202f;
 }
 
 .slide-1{
-	filter: opacity(15%);
+	-moz-filter: opacity(25%);
+	-webkit-filter: opacity(25%);
+	filter: opacity(25%);
+	background-color: rgba(255, 255, 255, .7);
 	background: url(../img/hand.jpg) no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -111,8 +117,10 @@ color: #17202f;
 }
 
 .slide-2{
-	filter: opacity(15%);
-	background: url(../img/map.jpg) no-repeat;
+	-moz-filter: opacity(25%);
+	-webkit-filter: opacity(25%);
+	filter: opacity(25%);
+	background: url(../img/map.jpg) no-repeat ;
 	background-size: cover;
 	background-position: top center;
 	height: 100vh;
@@ -121,8 +129,10 @@ color: #17202f;
 }
 
 .slide-3{
-	filter: opacity(15%);
-	background: url(../img/beach-2.jpg) no-repeat;
+	-moz-filter: opacity(25%);
+	-webkit-filter: opacity(25%);
+	filter: opacity(25%);
+	background: url(../img/beach-2.jpg) no-repeat ;
 	background-size: cover;
 	background-position: top center;
 	height: 100vh;
