@@ -84,6 +84,14 @@ color: #17202f;
 	padding: 20px 30px;
 }
 
+#ui-datepicker-div{
+	z-index: 1000!important;
+}
+
+.button-menu{
+	display: none;
+}
+
 .sl{
 	position: fixed;
 	top: 0;
@@ -124,6 +132,10 @@ color: #17202f;
 
 .nav__logo-image{
 	width: 25%;
+}
+
+.nav__logo-image-ie{
+	display: none;
 }
 
 li{
@@ -312,7 +324,7 @@ main.content{
 
 .right-section__typeroom{
 	width: 37%;
-	min-width: 125px;
+	min-width: 183px;
 	margin-left: 20px;
 }
 
@@ -334,6 +346,7 @@ main.content{
 
 .right-section__selected .changed .jq-selectbox__select-text{
 	 padding: 4px 0 4px 61px;
+	 width: 100%;
 }
 
 .right-section__date-inneer{
@@ -450,6 +463,10 @@ main.content{
 	margin-right: 0px;
 }
 
+.right-section__circle:hover{
+	cursor: pointer;
+}
+
 .right-section__circle:before{
 	content: "\e903";
 	font-family: 'icomoon';
@@ -562,6 +579,7 @@ input[type="checkbox"]{
 -moz-appearance: none;
 -ms-appearance: none;
 appearance: none;
+display: none;
 }
  
 

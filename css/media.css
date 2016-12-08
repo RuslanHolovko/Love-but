@@ -1,8 +1,14 @@
 /*==========  Desktop First Method  ==========*/
+
+@media only screen and (min-width : 1367px){
+.left-section__image-block {
+	margin-right: 5%;
+}
+}
+
 @media only screen and (max-width : 1280px){
 #Departure, #race {
 	width: 100%;
-
 }
 }
 
@@ -22,22 +28,190 @@
 	width: 73%;
 }
 
+.nav__navigation-list li a {
+	font-size: 14px;
+}
 
+.info__list li a {
+	font-size: 13px;
+}
+
+.info__languages {
+	margin-left: 11px;
+}
+
+.info__links {
+	padding: 1px 1px;
+}
+
+.nav__love-but {
+	font-size: 17px;
+}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+main.content {
+	padding-top: 50px;
+}
+
+.button-menu{
+	background: url(../img/button-nav.png) no-repeat!important;
+	display: block;
+	width: 80px;
+	padding: 10px;
+	z-index: 10000!important;
+	position: fixed;
+	top: 15px;
+	left: 30px;
+}
+
+
+.left-section, .right-section {
+	width: 100%;
+}
+
+.right-section form {
+   margin: 29px 0 0 0;
+}
+
+.left-section__image-block {
+	margin-right: 6%;
+}
+
+#Departure, #race {
+	width: 52%;
+}
+
+.header{
+	padding-top: 16px;
+	z-index: 1000;
+	background: #fff;
+	height: 100vh;
+	overflow: hidden;
+	width: 50vw;
+	position: fixed;
+	display: none;
+}
+
+.nav__logo {
+	line-height: 3.5em;
+	width: 100%;
+	text-align: left;	
+}
+
+.nav__logo-image {
+	width: 30px;
+}
+
+.nav__navigation-list li {
+	clear: both;
+	padding: 7px;
+	text-align: left;
+  display: block; 
+	margin-left: 0px;
+}
+
+.info {
+	float: left;
+	width: 100%;
+}
+
+.info__list {
+	clear: both;
+	margin-top: 2px;
+	float: left;
+}
+
+.info__list li {
+	display: block;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+
+.info__languages {
+	margin-left: 8px;
+	margin-top: 12px;
+}
+
+.nav {
+	float: left;
+	width: 100%;
+}
+
+.about-website {
+	margin-top: 30px;
+}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+
+#Departure, #race {
+	width: 100%;
+}
+
+.about-website{
+	float: left;
+	clear: both;
+	margin-top: 30px;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+.button-menu{
+	position: absolute;
+}
+
+.header{
+	width: 100vw;
+	position: relative;
+}
+
+#email,
+#tel {
+    margin-left: 0px;
+}
+
+.right-section__children {
+	 margin-left: 0px; 
+}
+
+.right-section__typeroom {
+	margin-left: 0px;
+}
+
+#Departure, #race {
+	width: 126px;
+	padding: 0px 3px;
+	background: #fff url(../img/date.png) no-repeat 95% 50%;
+}
+
+.social {
+	float: left;
+	margin-left: 0;
+	margin-top: 30px;
+	clear: both;
+}
+
+.contact__telephone {
+	float: left;
+}
+
+.right-section__circle {
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+.right-section__selected .changed .jq-selectbox__select-text {
+	padding: 4px 0 4px 61px!important;
+	font-size: 12px!important;
+}
 }
 
 /* Custom, iPhone Retina */

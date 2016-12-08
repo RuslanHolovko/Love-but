@@ -1,68 +1,63 @@
 
-.adaptive-buttons-block{
-	display: none;
+#Departure, #race {
+  padding: 7px;
 }
 
-.contact .contact_tel {
+#email, #tel {
+  padding: 7px 10px;
+}
+
+.nav__logo-image-ie{
+  display: block;
+}
+
+.nav__love-but {
   display: inline-block;
-  margin-top: 7px;
-  font-size: 21px;
-  color: #181616;
+  vertical-align: top;
+  font-size: 22px;
+  font-family: "MuseoSans";
+  color: #333;
+  margin-left: 100px;
+  margin-top: -57px;
 }
 
-.sl_slide_descr {
-  position: absolute;
-  top: -220px;
-  left: 67px;
-  text-align: left;
-  padding-left: 30px;
-  width: 470px;
-  height: 128px;
-  background: #d2a66b;
+.nav__logo-image-main{
+  display: none;
 }
 
-.slick-prev {
-  height: 128px;
-  width: 37px;
-  background: url(../img/icons/slider-arrow-left.png) no-repeat 45% 50% #d2a66b;
-  left: 0;
-  top: 87px;
-  z-index: 1000;
+.fancybox-prev span:before{
+  content: "";
+  height: 60px;
+  width: 60px;
+  background: url(../img/sprite.png) no-repeat;
+  background-position: -5px -75px;
 }
 
-.slick-next {
-    height: 128px;
-    top: 87px;
-    width: 37px;
-    background: url(../img/icons/slider-arrow-right.png) no-repeat 55% 50% #d2a66b;
-    right: 0;
+.fancybox-next span:before{
+  content: "";
+  height: 65px;
+  width: 65px;
+  background: url(../img/sprite.png) no-repeat;
+  background-position: -5px -145px;
 }
 
-.sl_slide_descr {
-  padding-left: 15px;
+.fancybox-close:before{
+  display: none;
 }
 
-.nav_basket_productsnumber{
-	position: relative;
+.fancybox-close:after{
+  display: none;
 }
 
-.nav_basket .ten{
-	display: block;
-	position: absolute;
-	top: 1px;
-	left: -28px;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
+
+.fancybox-close{
+  height: 65px;
+  width: 65px;
+  background: url(../img/sprite.png) no-repeat;
+  background-position: -5px 0px;
 }
 
-.slick-prev:hover {
-    background: url(../img/icons/slider-arrow-left-hover.png) no-repeat 45% 50% #fff;
+.right-section__circle:before {
+  display: none;
 }
 
-.slick-next:hover {
-    background: url(../img/icons/slider-arrow-right-hover.png) no-repeat 55% 50% #fff;
-}

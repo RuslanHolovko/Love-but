@@ -30,10 +30,15 @@ $(function(){
 
 });
 
-$('.button-phone').click(function(){
-	$(this).toggleClass('active'), 
-	$('.contact').slideToggle(); 
+$('.button-menu').click(function(){ 
+	$('.header').slideToggle(500); 
 	return false;
+});
+
+$(window).resize(function(){
+	if ($(window).width()>991){
+		$('.header').removeAttr('style');
+	}
 });
 
 
