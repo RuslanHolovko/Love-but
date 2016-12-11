@@ -1,0 +1,97 @@
+
+#Departure, #race {
+  padding: 7px;
+}
+
+#email, #tel {
+  padding: 7px 10px;
+}
+
+.nav__logo-image-ie{
+  display: block;
+}
+
+.nav__love-but {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  font-family: "MuseoSans";
+  color: #333;
+  margin-left: 100px;
+  margin-top: -57px;
+}
+
+.nav__logo-image-main{
+  display: none;
+}
+
+.fancybox-prev span:before{
+  content: "";
+  height: 60px;
+  width: 60px;
+  background: url(../img/sprite.png) no-repeat;
+  background-position: -5px -75px;
+}
+
+.fancybox-next span:before{
+  content: "";
+  height: 65px;
+  width: 65px;
+  background: url(../img/sprite.png) no-repeat;
+  background-position: -5px -145px;
+}
+
+.fancybox-close:before{
+  display: none;
+}
+
+.fancybox-close:after{
+  display: none;
+}
+
+.fancybox-close{
+  height: 65px;
+  width: 65px;
+  background: url(../img/sprite.png) no-repeat;
+  background-position: -5px 0px;
+}
+
+.right-section__circle:before {
+  display: none;
+}
+
+.slide-1{
+  background: url(../img/hand-ie-9.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border: none;
+  outline: none;
+  height: 1005px;
+}
+
+.slide-2{
+  background: url(../img/map-ie-9.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border: none;
+  outline: none;
+  height: 1005px;
+}
+
+.slide-3{
+  background: url(../img/beach-2-ie-9.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border: none;
+  outline: none;
+  height: 1005px;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+}
+
